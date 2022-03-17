@@ -56,7 +56,7 @@ def main_menu():
     text = f"𝗡𝗶𝗸𝘀𝗢𝗻 𝗯𝗼𝘁\
         \n𝗣𝗿𝗼𝘃𝗶𝗱𝗲𝗱 𝗯𝘆 {mention}"
     buttons = [
-        (Button.inline("ℹ️ Info", data="check"),),
+        (Button.inline("🪩 Info", data="check"),),
         (
             Button.inline(f"👮‍♂️ Admin ({len(GRP_INFO['admin'])})", data="admin_menu"),
             Button.inline(f"🤖 Bot ({len(GRP_INFO['bot'])})", data="bot_menu"),
